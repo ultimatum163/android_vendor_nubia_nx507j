@@ -20,7 +20,6 @@ DEVICE_PACKAGE_OVERLAYS += vendor/nubia/nx507j/overlay
 PRODUCT_PACKAGES += \
     libHevcSwDecoder \
     com.qualcomm.location \
-    com.qualcomm.msapm \
     TimeService \
     libtime_genoff \
     libTimeService \
