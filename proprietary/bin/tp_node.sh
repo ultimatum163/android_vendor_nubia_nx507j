@@ -52,6 +52,12 @@ if [ -e "/sys/gtp_test/opentest" ]; then
     ln -s /sys/gtp_test/opentest /data/tp/ic_detect
 fi
 
+if [ -e "/sys/bus/i2c/devices/2-005d/keypad_enable" ]; then
+ 	chown system:system /sys/bus/i2c/devices/2-005d/keypad_enable
+     ln -s /sys/bus/i2c/devices/2-005d/keypad_enable /data/tp/keypad_enable
+ fi
+
+
 # ==============================================================================
 # Cypress TMA463
 

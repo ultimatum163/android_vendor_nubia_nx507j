@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx507j/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/nubia/nx507j/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/nubia/nx507j/proprietary/bin/perfd:system/bin/perfd \
-    vendor/nubia/nx507j/proprietary/bin/pfm:system/bin/pfm \
     vendor/nubia/nx507j/proprietary/bin/uiautomator:system/bin/uiautomator \
     vendor/nubia/nx507j/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/nubia/nx507j/proprietary/bin/tp_node.sh:system/bin/tp_node.sh \
@@ -127,7 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx507j/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/nubia/nx507j/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
-    vendor/nubia/nx507j/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/nubia/nx507j/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/nubia/nx507j/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
