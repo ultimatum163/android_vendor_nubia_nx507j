@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx507j/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/nubia/nx507j/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/nubia/nx507j/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/nubia/nx507j/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/nubia/nx507j/proprietary/bin/perfd:system/bin/perfd \
     vendor/nubia/nx507j/proprietary/bin/uiautomator:system/bin/uiautomator \
     vendor/nubia/nx507j/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
