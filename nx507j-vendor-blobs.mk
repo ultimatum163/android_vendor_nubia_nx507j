@@ -113,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx507j/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/nubia/nx507j/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/nubia/nx507j/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/nubia/nx507j/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/nubia/nx507j/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/nubia/nx507j/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -125,7 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx507j/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/nubia/nx507j/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
-    vendor/nubia/nx507j/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/nubia/nx507j/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/nubia/nx507j/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -543,6 +544,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx507j/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/nubia/nx507j/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
