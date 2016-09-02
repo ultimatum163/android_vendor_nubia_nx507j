@@ -42,19 +42,15 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx507j/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/nubia/nx507j/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
     vendor/nubia/nx507j/proprietary/bin/quipc_main:system/bin/quipc_main \
-    vendor/nubia/nx507j/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
-    vendor/nubia/nx507j/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/nubia/nx507j/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/nubia/nx507j/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/nubia/nx507j/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/nubia/nx507j/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/nubia/nx507j/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/nubia/nx507j/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/nubia/nx507j/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/nubia/nx507j/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/hw/activity_recognition.msm8974.so:system/vendor/lib/hw/activity_recognition.msm8974.so \
     vendor/nubia/nx507j/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/nubia/nx507j/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
     vendor/nubia/nx507j/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/nubia/nx507j/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/nubia/nx507j/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \

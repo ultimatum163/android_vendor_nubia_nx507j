@@ -59,7 +59,6 @@ LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
-
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := nubia
@@ -98,7 +97,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := platform
-LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -111,5 +109,10 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := platform
 include $(BUILD_PREBUILT)
 
+ifeq ($(LOCAL_PATH)/radio, $(wildcard $(LOCAL_PATH)/radio))
+RADIO_FILES := $(shell cd $(LOCAL_PATH)/radio ; ls)
+$(foreach f, $(RADIO_FILES), \
+    $(call add-radio-file,radio/$(f)))
 endif
 
+endif
