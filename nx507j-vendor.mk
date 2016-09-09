@@ -25,9 +25,12 @@ PRODUCT_PACKAGES += \
     libscale \
     shutdownlistener \
     qcrilmsgtunnel \
+    cneapiclient \
+    com.quicinc.cne \
     qcnvitems \
     qcrilhook \
-    TimeService
+    TimeService \
+    CNEService
 #    com.qualcomm.location \
 
 PRODUCT_PACKAGES += \
