@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx507j/proprietary/bin/perfd:system/bin/perfd \
     vendor/nubia/nx507j/proprietary/bin/uiautomator:system/bin/uiautomator \
     vendor/nubia/nx507j/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
-    vendor/nubia/nx505j/proprietary/bin/tp_node.sh:system/bin/tp_node.sh \
+    vendor/nubia/nx507j/proprietary/bin/tp_node.sh:system/bin/tp_node.sh \
     vendor/nubia/nx507j/proprietary/bin/garden_app:system/bin/garden_app \
     vendor/nubia/nx507j/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/nubia/nx507j/proprietary/bin/location-mq:system/bin/location-mq \
