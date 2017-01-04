@@ -48,11 +48,6 @@ if [ -e "/sys/bus/i2c/devices/2-005d/wakeup_gesture" ]; then
 	ln -s /sys/bus/i2c/devices/2-005d/wakeup_gesture /data/tp/easy_wakeup_gesture
 fi
 
-if [ -e "/sys/bus/i2c/devices/2-005d/keypad_enable" ]; then
-	chown system:system /sys/bus/i2c/devices/2-005d/keypad_enable
-    ln -s /sys/bus/i2c/devices/2-005d/keypad_enable /data/tp/keypad_enable
-fi
-
 if [ -e "/sys/gtp_test/opentest" ]; then
     ln -s /sys/gtp_test/opentest /data/tp/ic_detect
 fi
