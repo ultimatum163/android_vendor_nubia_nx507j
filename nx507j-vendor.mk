@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -52,11 +52,11 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx507j/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/nubia/nx507j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/nubia/nx507j/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/nubia/nx507j/proprietary/lib/libnubia_effect.so:system/lib/libnubia_effect.so \
+    vendor/nubia/nx507j/proprietary/lib/libnubiajpeg.so:system/lib/libnubiajpeg.so \
     vendor/nubia/nx507j/proprietary/lib/libnubia_runtime.so:system/lib/libnubia_runtime.so \
     vendor/nubia/nx507j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/nubia/nx507j/proprietary/lib/libSFB.so:system/lib/libSFB.so \
-    vendor/nubia/nx507j/proprietary/lib/libnubiajpeg.so:system/lib/libnubiajpeg.so \
-    vendor/nubia/nx507j/proprietary/lib/libnubia_effect.so:system/lib/libnubia_effect.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libactuator_dw9716_camcorder.so:system/vendor/lib/libactuator_dw9716_camcorder.so \
@@ -372,7 +372,6 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx507j/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/nubia/nx507j/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/nubia/nx507j/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/nubia/nx507j/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/nubia/nx507j/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/nubia/nx507j/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/nubia/nx507j/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
@@ -389,6 +388,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx507j/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/nubia/nx507j/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/nubia/nx507j/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/nubia/nx507j/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/nubia/nx507j/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -408,6 +408,10 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx507j/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/nubia/nx507j/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/nubia/nx507j/proprietary/vendor/lib/libcneconn.so:system/vendor/lib/libcneconn.so \
+    vendor/nubia/nx507j/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
+    vendor/nubia/nx507j/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
@@ -426,6 +430,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx507j/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/nubia/nx507j/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
@@ -454,6 +459,7 @@ PRODUCT_COPY_FILES += \
     vendor/nubia/nx507j/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
+    vendor/nubia/nx507j/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/nubia/nx507j/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
@@ -473,9 +479,7 @@ PRODUCT_PACKAGES += \
     libqmi \
     libtime_genoff \
     libTimeService \
-    shutdownlistener \
     TimeService \
-    qcrilmsgtunnel \
     qcnvitems \
     qcrilhook
 endif
